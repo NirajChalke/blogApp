@@ -3,7 +3,7 @@ import 'package:subspace_assig/Blog/bloc/blog_events.dart';
 import 'package:subspace_assig/Blog/bloc/blog_state.dart';
 
 class AppBlocs extends Bloc<AppEvents,AppState>{
-  AppBlocs():super( AppState()){
+  AppBlocs():super( AppState(isliked: false,showMore: false)){
     on<TriggerlikeEvent>(_triggerlikeEvent);
     on<TriggertextEvent>(_triggertextEvent);
   }

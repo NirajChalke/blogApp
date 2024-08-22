@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:subspace_assig/Blog/bloc/blog_bloc.dart';
-import 'package:subspace_assig/Blog/blog_list_screen.dart';
+import 'package:subspace_assig/Blog/screens/blog_list_screen.dart';
 import 'package:subspace_assig/constants/colors.dart';
 
 void main() {

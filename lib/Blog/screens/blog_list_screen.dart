@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:subspace_assig/Blog/blog_detail_screen.dart';
+
+
 import 'package:subspace_assig/Blog/widget/blog_list_view_widget.dart';
 import 'package:subspace_assig/constants/colors.dart';
 import 'package:subspace_assig/models/blog.dart';
@@ -32,9 +33,7 @@ class _BlogListScreenState extends State<BlogListScreen> {
         width: 100,
         child: Image.asset('assets/images/logo.png'),
       ),
-      actions: [
-        IconButton(onPressed: (){}, icon: const Icon(Icons.favorite),color: AppColors.textColor,)
-      ],
+      
       ),
       body: FutureBuilder(
         future: _futureBlogs,
